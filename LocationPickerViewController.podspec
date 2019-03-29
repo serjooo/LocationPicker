@@ -9,9 +9,9 @@ Pod::Spec.new do |s|
   s.author           = { "Jerome Tan" => "DevJerome@iCloud.com" }
   s.source           = { :git => "https://github.com/JeromeTan1997/LocationPicker.git", :tag => s.version.to_s }
 
-  s.platform     = :ios, '8.0'
+  s.platform     = :ios, '10.0'
   s.requires_arc = true
-  s.swift_version = '4.2'
+  s.swift_version = '5.0'
 
   s.source_files = 'LocationPicker/*.swift'
 
